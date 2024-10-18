@@ -9,8 +9,8 @@ The SuperGen is a Python-based tool designed to generate randomized betting comb
 - **Randomization**: Each combination is shuffled and randomized, ensuring unique and varied outputs every time.
 
 ## How It Works
-1. **Scraping Dead Numbers**: The script fetches "dead numbers" from `https://www.belatiaksara4d.com`, avoiding these numbers in the final combinations.
-2. **Scraping AI Numbers**: It pulls AI-generated numbers from `https://w33.angkanet.fit/kalender-togel/`, which are partially mixed into the combinations.
+1. **Scraping Dead Numbers**: The script fetches "dead numbers", avoiding these numbers in the final combinations.
+2. **Scraping AI Numbers**: It pulls AI-generated numbers, which are partially mixed into the combinations.
 3. **Generating Combinations**: Based on user input, the script generates combinations for 4D, 3D, and 2D bets.
 4. **AI Integration**: The generated combinations are partially modified by numbers from the AI data to create mixed, unique results.
 5. **Output**: The final result displays combinations for 4D, 3D, and 2D bets in the required format.
@@ -24,16 +24,6 @@ The SuperGen is a Python-based tool designed to generate randomized betting comb
    ```bash
    python thesupergen.py
    ```
-3. **Input Details**:
-   - Enter the number of combinations to generate.
-   - Specify betting amounts for 4D, 3D, and 2D.
-4. **Output Example**:
-   ```
-   4D: 2043*2430*4283*4832#1+
-   3D: 043*034*283*238#1+
-   2D: 43*34*83*38#1
-   ```
-   This shows the generated numbers with AI-mixed digits for betting.
 
 ## Code Overview
 - **`scrape_nomer_tidak_keluar`**: Scrapes "dead numbers" to avoid using them in generated combinations.
@@ -42,7 +32,6 @@ The SuperGen is a Python-based tool designed to generate randomized betting comb
 - **`gabung_data_ai`**: Partially replaces digits in combinations with AI data, adding randomness.
 - **`main`**: Main function that drives the program, taking user inputs and displaying the results.
 
-## Future Improvements
-- Add more customization for AI data integration (e.g., percentage of numbers replaced).
-- Enhance error handling for scraping operations.
-- Support more betting formats and additional scraping sources.
+## Web?
+The web version may not be available in the near future, as it also requires a lot of funding.
+
